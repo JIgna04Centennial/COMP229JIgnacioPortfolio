@@ -1,16 +1,16 @@
 import React from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import Layout from './components/Layout';
-import Footer from './components/Footer';
-import backImg from './assets/images/nyc.jpg';
-import About from './components/about';
-import Project from './components/Project';
-import Services from './components/Service';
-import Contact from './components/Contact';
-/* import About from './src/about'
-import Contact from './src/contact'
-import Education from './src/education'
+import Home from '/src/components/Home';
+import Layout from '/src/components/Layout';
+import Footer from '/src/components/Footer';
+import backImg from '/src/assets/images/nyc.jpg';
+import About from '/src/components/about';
+import Project from '/src/components/Project';
+import Services from '/src/components/Service';
+import Contact from '/src/components/Contact';
+/* import About from '/src/src/about'
+import Contact from '/src/src/contact'
+import Education from '/src/src/education'
 
 ' */
 
