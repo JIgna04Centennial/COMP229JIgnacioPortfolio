@@ -5,9 +5,10 @@ import Layout from '/src/components/Layout';
 import Footer from '/src/components/Footer';
 import backImg from '/src/assets/images/nyc.jpg';
 import About from '/src/components/about';
-import Project from '/src/components/Project';
 import Services from '/src/components/Service';
 import Contact from '/src/components/Contact';
+import Project from './components/Project';
+
 /* import About from '/src/src/about'
 import Contact from '/src/src/contact'
 import Education from '/src/src/education'
