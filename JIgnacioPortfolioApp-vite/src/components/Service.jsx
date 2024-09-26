@@ -1,3 +1,12 @@
+/*
+
+Student Name: James Ignacio\
+Class: COMP-229 - 409
+Student ID: 822865945
+
+*/
+
+
 import React from 'react';
 // Import the images
 import imgCybersecurity from '../assets/images/cybersecurity.jpg';

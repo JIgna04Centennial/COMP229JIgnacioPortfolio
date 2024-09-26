@@ -1,3 +1,13 @@
+/*
+
+Student Name: James Ignacio\
+Class: COMP-229 - 409
+Student ID: 822865945
+
+*/
+
+
+
 import React from 'react';
 import myPortrait from '../assets/images/portrait.png'
 

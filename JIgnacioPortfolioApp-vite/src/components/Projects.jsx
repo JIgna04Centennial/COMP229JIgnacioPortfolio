@@ -1,3 +1,12 @@
+/*
+
+Student Name: James Ignacio\
+Class: COMP-229 - 409
+Student ID: 822865945
+
+*/
+
+
 import React from 'react';
 import ProjectTile from './cards/ProjectTile';
 import imgProject from '../assets/images/project1.png';

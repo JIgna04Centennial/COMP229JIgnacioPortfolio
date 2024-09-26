@@ -1,3 +1,12 @@
+/*
+
+Student Name: James Ignacio\
+Class: COMP-229 - 409
+Student ID: 822865945
+
+*/
+
+
 import React from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route, Routes } from 'react-router-dom';
 import Home from '/src/components/Home';
@@ -8,6 +17,8 @@ import About from '/src/components/about';
 import Services from '/src/components/Service';
 import Contact from '/src/components/Contact';
 import Project from '/src/components/Projects';
+
+
 
 /* import About from '/src/src/about'
 import Contact from '/src/src/contact'
