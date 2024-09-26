@@ -1,8 +1,12 @@
 import React from 'react';
-import myPortrait from '../assets/portrait.png';
-import myResume from '../assets/james-ignacio-resume-final.pdf';
+import myPortrait from '../assets/images/portrait.png'
 
 function about() {
+            //Determine if vite is prod or dev mode (To prevent unauthorize PII leakage of my resume)
+            const isProd = import.meta.env.PROD;
+            const resumeDev = import.meta.env.VITE_RESUME_DEV;
+            const resumePublic = import.meta.env.VITE_RESUME_PUBLIC;
+            const myResume = isProd ? resumePublic : resumeDev;
     return (
         <>
             <div className="text-white px-10 py-10">
@@ -43,14 +47,14 @@ function about() {
                         Enterprise Systems: SQL, Oracle, Algosec, IP360<br />
 
                     </p>
-                    <p className="text-1xl text-red-400 font-semibold mt-4 px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300 w-60">
+                    <p className="text-1xl text-red-400 font-semibold mt-4 px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300 w-80">
                         <a
                             href={myResume}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block w-full h-full text-center"
                         >
-                            Click here for my full resume
+                            See my full resume
                         </a>
 
                     </p>

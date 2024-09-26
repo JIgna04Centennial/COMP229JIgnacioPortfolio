@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import myLogo from '../assets/jfilogo.png';
+import myLogo from '../assets/images/jfilogo.png';
 
 export default function Layout() {
     return (
@@ -11,9 +11,9 @@ export default function Layout() {
                 {/* Navigation Links */}
                 <nav className="space-x-6 text-lg">
                     <Link to="/" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">Home</Link>
-                    <Link to="/about" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">About</Link>
-                    <Link to="/education" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">Education</Link>
+                    <Link to="/about" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">About Me</Link>
                     <Link to="/project" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">Project</Link>
+                    <Link to="/services" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">Services</Link>
                     <Link to="/contact" className="px-3 py-1 rounded hover:bg-blue-900 hover:text-white transition-colors duration-300">Contact</Link>
                 </nav>
             </div>
