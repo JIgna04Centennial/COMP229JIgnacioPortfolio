@@ -1,30 +1,36 @@
 import React from 'react';
+// Import the images
+import imgCybersecurity from '../assets/images/cybersecurity.jpg';
+import imgWebDevelopment from '../assets/images/webdevelop.jpg';
+import imgCloudSecurity from '../assets/images/cloudsecurity.jpg';
+import imgDevOps from '../assets/images/Devops.jpg';
+import imgCustomDev from '../assets/images/customdev.jpg';
 
 const services = [
     {
         title: 'Cybersecurity Consulting',
         description: 'Providing expert advice on securing your business assets, implementing security measures, and responding to incidents.',
-        image: '/src/assets/images/cybersecurity.jpg'
+        image: imgCybersecurity // Use imported image
     },
     {
         title: 'Web Development',
         description: 'Creating modern, responsive websites with secure backends, using technologies like JavaScript, React, and TypeScript.',
-        image: '/src/assets/images/webdevelop.jpg'
+        image: imgWebDevelopment // Use imported image
     },
     {
         title: 'Cloud Security',
         description: 'Offering comprehensive cloud security solutions on platforms like AWS, Azure, and Google Cloud to protect your data.',
-        image: '/src/assets/images/cloudsecurity.jpg'
+        image: imgCloudSecurity // Use imported image
     },
     {
         title: 'DevOps Solutions',
         description: 'Automating infrastructure and ensuring scalable and secure systems using tools like Kubernetes, Docker, and Jenkins.',
-        image: '/src/assets/images/Devops.jpg'
+        image: imgDevOps // Use imported image
     },
     {
         title: 'Custom Software Development',
         description: 'Building custom applications tailored to your business needs, including mobile apps, enterprise software, and more.',
-        image: '/src/assets/images/customdev.jpg'
+        image: imgCustomDev // Use imported image
     }
 ];
 

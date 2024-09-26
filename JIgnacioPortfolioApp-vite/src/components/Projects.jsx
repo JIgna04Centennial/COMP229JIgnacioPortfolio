@@ -1,5 +1,9 @@
 import React from 'react';
 import ProjectTile from './cards/ProjectTile';
+import imgProject from '../assets/images/project1.png';
+import imgJava from '../assets/images/java.png'; 
+import imgCodeInProgress from '../assets/images/codeinprogress.png'; 
+
 
 function Project() {
     const projects = [
@@ -7,19 +11,19 @@ function Project() {
         title: 'My First React Project', 
         description: 
        'This is my first project using React, where I designed and developed a personal portfolio website. I tried to make website clean, responsive design with some styling using TailwindCSS.', 
-        image: './src/assets/images/project1.png'
+        image: imgProject
      },
      { 
         title: 'Simple Java Script Console Program', 
         description: 
        'Just created some simple app for my Java class.', 
-        image: './src/assets/images/java.png'
+        image: imgJava
      },
      { 
         title: 'More work to come', 
         description: 
        'Still in progresss.', 
-        image: './src/assets/images/codeinprogress.png'
+        image: imgCodeInProgress
      },
     ];
 

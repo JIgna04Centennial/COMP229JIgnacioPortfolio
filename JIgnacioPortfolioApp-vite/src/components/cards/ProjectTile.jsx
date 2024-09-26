@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const ProjectTile = ({ project }) => {
     const { title, description, image } = project;
-    console.log(project);
     return (
         <>
         <div className="bg-gray-800 rounded-lg shadow-lg p-6">
