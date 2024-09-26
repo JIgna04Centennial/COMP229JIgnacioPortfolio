@@ -7,7 +7,7 @@ import backImg from '/src/assets/images/nyc.jpg';
 import About from '/src/components/about';
 import Services from '/src/components/Service';
 import Contact from '/src/components/Contact';
-import Project from './components/project';
+import Project from './components/Project';
 
 /* import About from '/src/src/about'
 import Contact from '/src/src/contact'
